@@ -1,0 +1,98 @@
+//-------------MAN---------------
+//-------------Куртки
+.man_jacket_nike {
+    &:hover {
+        content: url("../img/man/jacket/nike_jacket_hover.jpg");
+    }
+}
+.man_jacket_gucci {
+    &:hover {
+        content: url("../img/man/jacket/gucci_jacket_hover.jpg");
+    }
+}
+.man_jacket_north {
+    &:hover {
+        content: url("../img/man/jacket/north_jacket_hover.jpg");
+    }
+}
+//---------------Штаны
+.man_pants_puma {
+    &:hover {
+        content: url("../img/man/pants/puma_pants_hover.jpg");
+    }
+}
+.man_pants_nike {
+    &:hover {
+        content: url("../img/man/pants/nike_pants_hover.jpg")
+    }
+}
+.man_pants_gucci {
+    &:hover {
+        content: url("../img/man/pants/gucci_pants_hover.jpg")
+    }
+}
+//-------------choes
+.man_choes_adidas {
+    &:hover {
+        content: url("../img/man/choes/adidas_skate_hover.jpg");
+    }
+}
+.man_choes_puma {
+    &:hover {
+        content: url("../img/man/choes/puma_skate_hover.jpg");
+    }
+}
+.man_choes_vans {
+    &:hover {
+        content: url("../img/man/choes/vans_skate_hover.jpg");
+    }
+}
+//---------------WOMEN--------------
+//----- Куртки
+.nike_women_jacket {
+    &:hover {
+        content: url("../img/women/jacket/nike_women_jacket_hover.jpg");
+    }
+}
+.adidas_women_jacket {
+    &:hover {
+        content: url("../img/women/jacket/adidas_women_jacket_hover.jpg");
+    }
+}
+.gucci_women_jacket {
+    &:hover {
+        content: url("../img/women/jacket/gucci_women_jacket_hover.jpg");
+    }
+}
+//---------Штаны 
+.nike_women_pants {
+    &:hover {
+        content: url("../img/women/pants/nike_women_pants_hover.jpg");
+    }
+}
+.puma_women_pants {
+    &:hover {
+        content: url("../img/women/pants/puma_women_pants_hover.jpg");
+    }
+}
+.gucci_women_pants {
+    &:hover {
+        content: url("../img/women/pants/gucci_women_pants_hover.jpg");
+    }
+}
+//---------Кросовки-------
+.puma_women_choes {
+    &:hover {
+        content: url("../img/women/choes/puma_women_choes_hover.jpg");
+    }
+}
+.nike_women_choes {
+    &:hover {
+        content: url("../img/women/choes/nike_women_choes.jpg");
+    }
+}
+.gucci_women_choes {
+    &:hover {
+        content: url("../img/women/choes/gucci_women_choes_hover.jpg");
+    }
+}

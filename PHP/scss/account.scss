@@ -1,0 +1,57 @@
+.container_account {
+    max-width: 980px;
+    margin: auto;
+    border-bottom: 2px solid gray;
+    padding-bottom: 40px;
+    .lk {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+        border-top: 2px solid #7f7e7e;
+        padding-top: 20px;
+    }
+    .grid_account {
+        display: grid;
+        margin: auto;
+        gap: 50px;
+        padding-top: 40px;
+        max-width: 400px;
+        a {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            border: 2px solid #7f7e7e;
+            border-radius: 15px;
+            img {
+                width: 60px;
+                height: 60px;
+            }        
+        }
+        //----------Расположение----------
+        .account_person {
+            grid-column: 1/1;
+            grid-row: 1/1;
+
+        }
+        .account_contacts {
+            grid-column: 2/2;
+            grid-row: 1/1;
+        }
+        .account_history {
+            grid-column: 1/1;
+            grid-row: 2/2;
+        }
+        .account_telega {
+            grid-column: 2/2;
+            grid-row: 2/2;
+        }
+        .account_sale {
+            grid-column: 1/1;
+            grid-row: 3/3;
+        }
+        .account_password {
+            grid-column: 2/2;
+            grid-row: 3/3;
+        }
+    }
+}

@@ -1,0 +1,93 @@
+//Работает до 880 пкс в ширину, после 880 сбрасываются эти стили 
+// (от max до 880)
+@media screen and (min-width: 880px) {
+    .things_content {
+        padding: 25px 40px;
+        p {
+            padding-top: 30px;
+        }
+    }
+    .content_brand {
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .content_wrap {
+        padding-top: 50px;
+        &_things {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 30px;
+        }
+        label {
+            width: 50%;
+        }
+    }
+    .prev_wrap {
+        line-height: 1.9;
+    }
+}
+// от 1110 до 1
+@media screen and (max-width: 1110px) {
+    .prev_wrap {
+        width: 60%;
+        line-height: 1.5;
+    }
+}
+//Все меньше 880 пкс принимает значение (от 880 до 1)
+@media screen and (max-width: 880px) {
+    .content_wrap {
+        padding-top: 30px;
+        label {
+            width: 70%;
+        }
+        &_things {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding-top: 20px;
+            .things_content {
+                margin-top: 10px;
+
+            }
+        }
+    }
+    .things_content {
+        p {
+            padding: 5px 10px;
+        }
+    }
+    .content_brand {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        box-sizing: content-box;
+        &_icon {
+            margin-top: 10px;
+        }
+    }
+    .colums2 {
+        display: none;
+    }
+}
+//от 660 до 1
+@media screen and (max-width: 660px) {
+    nav {
+        a {
+            display: none;
+
+        }
+    }
+    .burger {
+
+    }
+
+}
+
+//-----от max до 660 
+@media screen and (min-width: 660px) {
+    .burger {
+        display: none;
+    }
+}
